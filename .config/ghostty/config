@@ -1,0 +1,42 @@
+config-file = ?auto/theme.ghostty
+
+font-family = "IosevkaTerm Nerd Font"
+font-size = 13.5
+
+split-inherit-working-directory = true
+window-padding-x = 2
+window-padding-y = 2
+unfocused-split-opacity = 0.9
+gtk-titlebar = true
+gtk-toolbar-style = flat
+confirm-close-surface = false
+
+# keybind = ctrl+space>s=search
+
+keybind = ctrl+space>o=toggle_tab_overview
+keybind = ctrl+space>enter=new_tab
+keybind = ctrl+space>e=close_surface
+keybind = ctrl+space>v=new_split:down
+keybind = ctrl+space>h=new_split:right
+
+keybind = ctrl+space>0=goto_tab:1
+keybind = ctrl+space>1=goto_tab:2
+keybind = ctrl+space>2=goto_tab:3
+keybind = ctrl+space>3=goto_tab:4
+keybind = ctrl+space>4=goto_tab:5
+keybind = ctrl+space>5=goto_tab:6 
+keybind = ctrl+space>6=goto_tab:7
+keybind = ctrl+space>7=goto_tab:8
+keybind = ctrl+space>8=goto_tab:9
+
+
+keybind = performable:ctrl+h=goto_split:left
+keybind = performable:ctrl+j=goto_split:bottom
+keybind = performable:ctrl+k=goto_split:top
+keybind = performable:ctrl+l=goto_split:right
+
+keybind = performable:alt+h=resize_split:left,50
+keybind = performable:alt+j=resize_split:down,50
+keybind = performable:alt+k=resize_split:up,50
+keybind = performable:alt+l=resize_split:right,50
+
